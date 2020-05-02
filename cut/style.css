@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+}
+.sidenav{
+    height:620px;
+    width:230px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:black;
+    overflow-x:hidden;
+    padding-top:15px;
+}
+.sidenav a{
+    padding:6px 8px 6px 16px;
+    text-decoration:none;
+    font-size:18px;
+    color:#818181;
+    display:block;
+
+}
+.main{
+    padding-left:270px;
+    background-color:rgb(252, 217, 223)
+
+}
+.main h1{
+    color:rgb(219, 219, 126);
+}
+a{
+    color:blue
+}
