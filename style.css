@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    padding:5px 20px;
+    background-color:black;
+
+}
+nav h1{
+    text-align: center;
+    font-size: 40px;
+    color:whitesmoke;
+}
+.sidenav{
+    height:620px;
+    width:230px;
+    position:fixed;
+    z-index:1;
+    top:0px;
+    left:0;
+    background-color:black;
+    overflow-x:hidden;
+    padding-top:15px;
+}
+.sidenav a{
+    padding:6px 8px 6px 16px;
+    /* text-decoration:none; */
+    font-size:18px;
+    color:#818181;
+    display:block;
+
+}
+.main{
+    padding-left:270px;
+    background-color:rgb(252, 217, 223)
+
+}
+.main h1{
+    color:rgb(58, 58, 22);
+}
+span{
+    background-color:rgb(243, 226, 128);
+}
